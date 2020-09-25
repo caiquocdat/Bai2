@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@color/primary">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:text="Cái Quốc Đạt"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào thầy đây là bài tập của em làm, nếu có thiếu gì mong thầy bỏ qua vì ngày mai em còn thi 3 môn nên em còn phải giành thời gian ôn mấy môn đó nữa. Em cảm ơn!"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem thêm"/>
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/buton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tham gia"/>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="UserName"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            />
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="PassWord"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_vpn_key_24"/>
+    <Button
+        android:drawablePadding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="Đăng nhập"
+        android:drawableRight="@drawable/ic_baseline_send_24"
+        />
+</LinearLayout>
+</LinearLayout>
